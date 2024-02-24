@@ -19,6 +19,11 @@ public class MainController {
     @GetMapping("/accounts")
     public String account(Model model){
         model.addAttribute("accounts", accountService.findAll());
+
+
+
+
+
         return "accounts";
     }
     @GetMapping("/login")
