@@ -23,6 +23,7 @@ public class MainController {
     }
     @GetMapping("/login")
     public String login(Model model){
+
         return "login";
     }
 
